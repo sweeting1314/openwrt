@@ -1,10 +1,3 @@
-#
-# This is free software, lisence use MIT.
-# 
-# 
-# <https://github.com/kiddin9/openwrt-packages>
-#
-
 name: Merge-upstream
 on:
   push:
@@ -12,8 +5,7 @@ on:
       - '.github/workflows/upstream.yml'
       - '.gitignore'
       - '.diy/**'
-  schedule:
-    - cron: 0 */12 * * *
+ 
   workflow_dispatch:
     inputs:
       ssh:
