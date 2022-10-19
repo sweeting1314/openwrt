@@ -5,7 +5,7 @@ on:
       - '.github/workflows/upstream.yml'
       - '.gitignore'
       - '.diy/**'
- 
+  
   workflow_dispatch:
     inputs:
       ssh:
